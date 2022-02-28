@@ -438,9 +438,11 @@ $(function() {
      });
      */
 
-     setTimeout(function(){
-         $('.ba-slider').beforeAfter();
-     },10000);
+    (function() {
+        $(window).on('load', function() {
+            $('.ba-slider').beforeAfter();
+        });
+    })();
 
 
 
