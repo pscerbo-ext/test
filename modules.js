@@ -428,7 +428,7 @@ $(function() {
     /***
      * USE FOR:
      *   - before_after_Oct2021_v1
-
+     */
      $(window).on('load', function() {
          $('.twentytwenty-container').twentytwenty({
              no_overlay: true,
@@ -436,13 +436,6 @@ $(function() {
              click_to_move: false
          });
      });
-     */
-
-    (function() {
-        $(window).on('load', function() {
-            $('.ba-slider').beforeAfter();
-        });
-    })();
 
 
 
